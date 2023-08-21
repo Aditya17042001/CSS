@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .animation{
+  height:100px;
+  width:100px;
+  background-color:red;
+  text-align:center;
+  padding:auto;
+  color:white;
+  font-weight:bold;
+   position:relative;
+  left:0px;
+  animation-name:animate;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+ 
+  
+}
+@keyframes animate{
+  from{
+    
+    background-color:red;
+  }
+  to{
+    left:300px;
+    background-color:yellow;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="animation">
+        HELLO
+      </div>
+       
+</body>
+</html>
